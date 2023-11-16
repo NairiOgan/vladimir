@@ -531,6 +531,9 @@
     .offer-wrap__title {
         font-size: 36px;
     }
+    .offer-wrap__benefits__item {
+        font-size: 18px;
+    }
 
     /* action-plan */
     .action-plan__wrap__item__top {
