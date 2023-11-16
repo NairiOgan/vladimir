@@ -326,6 +326,14 @@
     .accordion-header h3 {
         font-size: 22px;
     }
+    .accordion-header {
+        position: relative;
+    }
+    .icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
     .accordion-content__wrap {
         font-size: 16px;
     }
@@ -405,7 +413,11 @@
 
     /* action-plan */
     .action-plan__wrap__item__top__title {
-        width: min-content;
+        width: auto;
+        text-wrap: balance;
+    }
+    .action-plan__wrap__item__top__num {
+        display: none;
     }
 
     /* consult-section */
@@ -536,15 +548,28 @@
         font-size: 24px;
     }
 
+    /* cancer-treatment-methods */
+    .cancer-treatment-methods__bottom-text {
+        font-size: 18px;
+    }
+
     /* stages-passage */
     .stages-passage__wrap__item__title {
         font-size: 27px;
+    }
+    .stages-passage__wrap__item__info_list__step__prices__item__text {
+        font-size: 14px;
+        line-height: 1.2rem;;
     }
 
     /* question-answer */
     .question-answer__wrap__title {
         font-size: 25px;
     }
+    .accordion-header h3 {
+        padding-right: 46px;
+    }
+
 
 }
 @media screen and (max-width: 370px) {
