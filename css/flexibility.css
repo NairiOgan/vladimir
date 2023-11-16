@@ -369,6 +369,7 @@
         display: none;
     }
     .header__btn._mobile {
+        display: block;
         position: relative;
         width: 64px;
         height: 64px;
@@ -388,6 +389,7 @@
         background: url("../img/icons/phone-icon.svg") no-repeat center / contain;
     }
     .header__btn._mobile._fixed {
+        display: block;
         background: #9d7aff;
     }
     .header__btn._mobile._fixed::before {
