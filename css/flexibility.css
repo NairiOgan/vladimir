@@ -1,0 +1,713 @@
+/* === Адаптив для главной страницы === */
+@media screen and (max-width: 1200px) {
+    /* main */
+    .container {
+        width: 900px;
+    }
+    .section__title {
+        font-size: 34px;
+        line-height: 2.3rem;
+        margin-bottom: 12px;
+    }
+
+    /* offer  */
+    .offer-wrap__doctor-block__img {
+        width: 390px;
+        height: 460px;
+        bottom: -20px;
+        right: -10px;
+    }
+    .offer-wrap__doctor-block {
+        bottom: 90px;
+    }
+    .offer-wrap__main {
+        width: 555px;
+    }
+    .offer-wrap__title {
+        font-size: 50px;
+        line-height: 3rem;
+    }
+
+    /* action-plan */
+    .action-plan__wrap__item {
+        max-width: 440px;
+    }
+    .action-plan__text {
+        width: 100%;
+    }
+
+    /* consult-section */
+    .consult-section__text {
+        width: 100%;
+    }
+
+    /* doctor-info */
+    .doctor-info__wrap__image {
+        max-width: 290px;
+    }
+    .doctor-info__wrap__info {
+        min-width: 470px;
+    }
+    .doctor-info__wrap__info__ratings {
+        flex-wrap: wrap;
+    }
+
+    /* assessment-situation */
+    .assessment-situation__wrap__item__title-block {
+        min-width: 360px;
+        max-width: 360px;
+        gap: 9px;
+    }
+    .assessment-situation__wrap__item__title-block__num {
+        font-size: 30px;
+        height: 60px;
+        width: 60px;
+    }
+
+    /* social-section */
+    .social-section__block__title {
+        line-height: 2rem;
+    }
+    .social-section__block {
+        width: 100%;
+    }
+
+    /* optimal-tactics */
+    .optimal-tactics__text {
+        width: 100%;
+    }
+    .optimal-tactics__wrap {
+        flex-wrap: wrap;
+    }
+    .optimal-tactics__wrap__item {
+        max-width: 48.8%;
+    }
+    .optimal-tactics__wrap__item:last-child {
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
+    }
+
+    /* cancer-treatment-methods */
+    .cancer-treatment-methods__text {
+        width: 100%;
+    }
+    .cancer-treatment-methods__title__wrap {
+        flex-wrap: wrap;
+        margin-bottom: 80px;
+    }
+    .cancer-treatment-methods__title__wrap__before-block {
+        display: none;
+    }
+    .cancer-treatment-methods__title__wrap__item {
+        width: 48.8%;
+        max-width: 48.8%;
+    }
+    .cancer-treatment-methods__wrap__item__info {
+        max-width: 480px;
+    }
+    .cancer-treatment-methods__wrap__item__image {
+        max-width: 260px;
+    }
+    .cancer-treatment-methods__slider__item {
+        height: 260px;
+    }
+
+    /* cost-treatment */
+    .cost-treatment__top {
+        margin-bottom: 40px;
+    }
+
+    /* stages-passage  */
+    .stages-passage__wrap__item {
+        flex-direction: column;
+        width: 100%;
+    }
+    .stages-passage__wrap__item__title {
+        width: 100%;
+    }
+    .stages-passage__wrap__item__info {
+        max-width: 100%;
+    }
+    .stages-passage__wrap__item__info__places {
+        justify-content: flex-start;
+    }
+
+    /* rehabilitation */
+    .rehabilitation__wrap__item__title {
+        width: 346px;
+        min-width: 346px;
+    }
+    .rehabilitation__wrap__item__text {
+        width: auto;
+    }
+    .rehabilitation__wrap__item__title::before {
+        top: -2px;
+    }
+
+    /* footer */
+    .footer__tab-content__wrap__info {
+        width: auto;
+    }
+    .footer__tab-content__wrap__wrap__map {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 920px) {
+    /* main */
+    .container {
+        width: 600px;
+    }
+    .section__text {
+        font-size: 18px;
+    }
+
+    /* header  */
+    .header-wrap__places {
+        display: none;
+    }
+
+    /* offer */
+    .offer-wrap {
+        padding: 40px;
+    }
+    .offer-wrap__main {
+        width: 100%;
+    }
+    .offer-wrap__title {
+        font-size: 40px;
+    }
+    .offer-wrap__doctor-block__img {
+        display: none;
+    }
+    .offer-wrap__doctor-block {
+        display: none;
+    }
+    .offer-wrap__form {
+        width: 100%;
+    }
+
+    /* treatment-success */
+    .treatment-success__wrap {
+        gap: 20px;
+        justify-content: space-evenly;
+    }
+    .treatment-success__bottom-text {
+        width: 100%;
+    }
+
+    /* action-plan */
+    .action-plan__wrap__item {
+        max-width: 100%;
+    }
+
+    /* consult-section */
+    .consult-section__title {
+        text-align: center;
+    }
+    .consult-section__form__title {
+        margin-bottom: 30px;
+    }
+
+    .doctor-info__wrap {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .doctor-info__wrap__image {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .doctor-info__wrap__image__img._desktop {
+        display: none;
+    }
+    .doctor-info__wrap__image__img._mobile {
+        display: flex;
+    }
+    .doctor-info__wrap__image__img {
+        height: 300px;
+        width: 340px;
+        object-fit: cover;
+        user-select: none;
+    }
+    .doctor-info__wrap__info__achievement {
+        margin-bottom: 20px;
+    }
+    .doctor-info__wrap__info__name {
+        margin-bottom: 20px;
+    }
+    .doctor-info__wrap {
+        gap: 20px;
+    }
+
+    /* assessment-situation */
+    .assessment-situation__wrap__item {
+        flex-direction: column;
+    }
+    .assessment-situation__wrap__item__title-block {
+        min-width: 100%;
+        max-width: 100%;
+        gap: 12px;
+    }
+    .situation__wrap__item {
+        gap: 10px;
+    }
+    .assessment-situation__wrap__item__info-block {
+        padding-top: 0;
+    }
+
+    /* social-section */
+    .social-section__block__title {
+        font-size: 25px;
+        line-height: 1.6rem;
+    }
+
+    /* optimal-tactics */
+    .optimal-tactics__wrap__item {
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
+    }
+
+    /* cancer-treatment-methods */
+    .cancer-treatment-methods__title__wrap__item {
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
+    }
+    .cancer-treatment-methods__slider {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .cancer-treatment-methods__slider__item {
+        width: 100%;
+    }
+    .cancer-treatment-methods__wrap__item__image {
+        max-width: 100%;
+    }
+    .cancer-treatment-methods__wrap {
+        gap: 60px;
+    }
+    .cancer-treatment-methods__wrap__item__info__restrictions {
+        flex-direction: column;
+    }
+
+    /* cost-treatment */
+    .cost-treatment__content_wrap-blue__item,
+    .cost-treatment__content_wrap-purple__item {
+        width: 290px;
+        min-height: 195px;
+    }
+    .cost-treatment__content_wrap-blue__item__old-price-tag {
+        font-size: 26px;
+    }
+    .cost-treatment__content_wrap-blue__item__price-tag,
+    .cost-treatment__content_wrap-purple__item__price-tag {
+        font-size: 28px;
+    }
+
+    /* stages-passage */
+    .stages-passage__wrap__item__info_list__step__title::before {
+        top: -2px;
+    }
+
+    /* rehabilitation */
+    .rehabilitation__wrap__item {
+        flex-direction: column;
+    }
+    .rehabilitation__wrap__item__title {
+        width: 100%;
+        min-width: 100%;
+    }
+    .rehabilitation__wrap__item__text {
+        width: 100%;
+    }
+
+    /* question-answer  */
+    .accordion-header h3 {
+        font-size: 22px;
+    }
+    .accordion-content__wrap {
+        font-size: 16px;
+    }
+
+    /* footer  */
+    .footer__tab-content__wrap {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer__tab-content__wrap__info {
+        width: 100%;
+    }
+    .footer__tab-content__wrap__wrap__map {
+        width: 100%;
+    }
+    .footer__bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer__bottom__item {
+        width: 100%;
+    }
+    .footer__bottom__item__policy-text {
+        text-align: left;
+    }
+}
+@media screen and (max-width: 620px) {
+    /* main */
+    .container {
+        width: 400px;
+    }
+    .section__title {
+        font-size: 29px;
+    }
+
+    /* header  */
+    .header-wrap {
+        padding: 40px 0;
+    }
+    .header__btn._desktop {
+        display: none;
+    }
+    .header__btn._mobile {
+        position: relative;
+        width: 64px;
+        height: 64px;
+        object-fit: contain;
+        user-select: none;
+        background: #fff;
+        border-radius: 60px;
+    }
+    .header__btn._mobile::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 26px;
+        height: 26px;
+        background: url("../img/icons/phone-icon.svg") no-repeat center / contain;
+    }
+    .header__btn._mobile._fixed {
+        background: #9d7aff;
+    }
+    .header__btn._mobile._fixed::before {
+        width: 30px;
+        height: 30px;
+        background: url("../img/icons/phone-icon-white.svg") no-repeat center / contain;
+    }
+
+    /* offer  */
+    .offer-wrap__form__btn {
+        font-size: 21px;
+    }
+
+    /* action-plan */
+    .action-plan__wrap__item__top__title {
+        width: min-content;
+    }
+
+    /* consult-section */
+    .consult-form-block {
+        width: 100%;
+        flex-direction: column;
+    }
+    .consult-form-block__input {
+        width: 100%;
+    }
+    .consult-form-block__btn {
+        width: 100%;
+    }
+
+    /* doctor-info */
+    .doctor-info__wrap {
+        padding: 40px;
+    }
+    .doctor-info__wrap__info {
+        min-width: 100%;
+    }
+    .doctor-info__wrap__image__img {
+        width: 100%;
+    }
+    .doctor-info__wrap__info__achievement__item {
+        font-size: 13px;
+    }
+    .doctor-info__wrap__info__ratings__item {
+        width: 100%;
+    }
+    .doctor-info__wrap__info__ratings__item__img {
+        width: 185px;
+    }
+    .doctor-info__wrap__info__modal-btn {
+        margin-left: 0;
+    }
+
+    /* social-section */
+    .social-section__block {
+        padding: 30px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .social-section__block__links__item img {
+        width: 46px;
+        height: 46px;
+    }
+
+    /* cancer-treatment-methods  */
+    .cancer-treatment-methods__wrap {
+        padding: 40px;
+    }
+    .cancer-treatment-methods__wrap__item__info__title {
+        font-size: 25px;
+        line-height: 1.6rem;
+    }
+    .cancer-treatment-methods__wrap__item__info__production__item__title::before {
+        top: 1px;
+    }
+    .cancer-treatment-methods__wrap__item__info__restrictions__title {
+        line-height: 1.6rem;
+    }
+
+    /* cost-treatment */
+    .cost-treatment__content_wrap-blue__item,
+    .cost-treatment__content_wrap-purple__item {
+        width: 100%;
+    }
+    .cost-treatment__bottom__wrap__item {
+        width: 100%;
+    }
+
+    /* consult-section_second */
+    .consult-section_second__title {
+        font-size: 28px;
+    }
+
+    /* stages-passage */
+    .stages-passage__wrap {
+        padding: 40px;
+    }
+    .stages-passage__wrap__item__title {
+        font-size: 28px;
+        line-height: 2rem;;
+    }
+    .stages-passage__wrap__item__info__places {
+        flex-direction: column;
+    }
+    .stages-passage__wrap__item__info__places__item {
+        width: 100%;
+    }
+
+    /* question-answer */
+    .question-answer__wrap {
+        padding: 40px;
+    }
+
+    /* footer  */
+    .footer__top {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+@media screen and (max-width: 420px) {
+    /* main */
+    .container {
+        width: 356px;
+    }
+    
+    /* offer  */
+    .offer-wrap__title {
+        font-size: 36px;
+    }
+
+    /* action-plan */
+    .action-plan__wrap__item__top {
+        gap: 10px;
+    }
+    
+
+    /* doctor-info */
+    .doctor-info__wrap__info__achievement__item {
+        font-size: 11px;
+    }
+
+    /* social-section */
+    .social-section__block__title {
+        font-size: 24px;
+    }
+
+    /* stages-passage */
+    .stages-passage__wrap__item__title {
+        font-size: 27px;
+    }
+
+    /* question-answer */
+    .question-answer__wrap__title {
+        font-size: 25px;
+    }
+
+}
+@media screen and (max-width: 370px) {
+    /* main */
+    .container {
+        width: 300px;
+    }
+
+    /* header  */
+    .logo-link p {
+        font-size: 12px;
+    }
+
+    /* offer  */
+    .offer-wrap {
+        padding: 30px;
+    }
+    .offer-wrap__title {
+        font-size: 31px;
+        line-height: 2.4rem;
+    }
+    .offer-wrap__benefits__item {
+        font-size: 18px;
+    }
+    .offer-wrap__form__btn {
+        font-size: 18px;
+    }
+    .offer-wrap__form__subtitle {
+        font-size: 16px;
+    }
+
+    /* doctor-info */
+    .doctor-info__wrap__info__name {
+        font-size: 30px;
+    }
+    .doctor-info__wrap__info__ratings__item__img {
+        width: 145px;
+    }
+    .doctor-info__wrap__info__modal-btn {
+        text-align: left;
+    }
+    .doctor-info__wrap__info__modal-btn::before {
+        right: 0;
+    }
+
+    /* assessment-situation */
+    .assessment-situation__wrap__item__title-block__title {
+        font-size: 21px;
+    }
+
+    /* optimal-tactics */
+    .optimal-tactics__wrap__item__title {
+        font-size: 17px;
+    }
+    .optimal-tactics__wrap__item__text {
+        font-size: 16px;
+    }
+
+    /* cancer-treatment-methods */
+    .cancer-treatment-methods__wrap__item__info__title {
+        font-size: 21px;
+    }
+    .cancer-treatment-methods__wrap__item__info__status {
+        font-size: 11px;
+    }
+    .cancer-treatment-methods__bottom-text {
+        font-size: 18px;
+    }
+    .cancer-treatment-methods__wrap {
+        gap: 35px;
+    }
+    .cancer-treatment-methods__wrap__item__info__production__item__text {
+        font-size: 16px;
+    }
+    .tabs-top__btns {
+        width: 300px;
+    }
+
+    /* stages-passage */
+    .stages-passage__wrap {
+        padding: 24px;
+    }
+    .stages-passage__wrap__item__info_list__step__prices__item__text {
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1rem;
+    }
+    .stages-passage__wrap__item__title {
+        font-size: 25px;
+    }
+
+    /* question-answer */
+    .question-answer__wrap {
+        padding: 30px;
+    }
+}
+
+
+/* === Адаптив модального окна консультации ===  */
+@media screen and (max-width: 500px) {
+    .modal-content {
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .modal-content {
+        padding: 60px 30px;
+    }
+}
+
+
+/* === Адаптив - Модальное окно образования и проф деятельности === */
+@media screen and (max-width: 1120px) {
+    .modal-content_education__item__title {
+        font-size: 28px;
+        line-height: 2rem;
+        min-width: 284px;
+        max-width: 284px;
+        text-wrap: balance;
+    }
+}
+@media screen and (max-width: 830px) {
+    .modal-content_education__item {
+        flex-direction: column;
+    }
+    .modal-content_education__item__title {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+/* === Адаптив Политики конфиденциальности === */
+@media screen and (max-width: 620px) {
+    .policy-section h1 {
+        font-size: 24px;
+        text-wrap: balance;
+    }
+}
+@media screen and (max-width: 420px) {
+    .policy-section h1 {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .policy-section h1 {
+        font-size: 28px;
+    }
+}
+
+
+/* === Адаптив страницы 404 === */
+@media screen and (max-width: 920px) {
+    .error-section h1 {
+        text-align: center;
+        text-wrap: balance;
+    }
+}
+@media screen and (max-width: 620px) {
+    .error-section h1 {
+        font-size: 26px;
+    }
+    .error-section p {
+        font-size: 16px;
+        text-wrap: balance;
+    }
+}
