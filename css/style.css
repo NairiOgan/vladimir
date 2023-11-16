@@ -1130,15 +1130,15 @@ body {
 .cancer-treatment-methods__slider__item {
     height: 320px;
     width: 100%;
-    /* border-radius: 15px;
-    overflow: hidden; */
+    border-radius: 15px !important;
+    overflow: hidden !important;
 }
 
 .cancer-treatment-methods__slider__item img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    user-select: none;
+    object-fit: cover !important;
+    user-select: none !important;
 }
 
 .cancer-treatment-methods__wrap__item__info__restrictions__title {
@@ -1546,11 +1546,13 @@ body {
 }
 
 .stages-passage__wrap__item__info_list__step__prices__item__price {
+    display: block;
     color: #3183ff;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.6rem;
-    text-wrap: nowrap;
+    text-wrap: nowrap !important;
+    word-wrap: normal;
 }
 
 .stages-passage__wrap__item__info_list__step__title {
