@@ -116,6 +116,7 @@ body {
     font-size: 42px;
     font-weight: 700;
     line-height: 3.75rem;
+    margin-bottom: 10px;
 }
 
 .section__text {
@@ -328,7 +329,7 @@ body {
 
 .treatment-success__wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
 }
@@ -1063,7 +1064,7 @@ body {
     border-radius: 30px;
     border: 2px solid #3183ff;
     padding: 6px 16px;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
     display: inline-block;
 }
 
@@ -1079,6 +1080,7 @@ body {
     font-weight: 400;
     line-height: 1.3rem;
     margin-bottom: 24px;
+    padding-left: 10px;
 }
 
 .cancer-treatment-methods__wrap__item__info__production__item {
@@ -1147,6 +1149,7 @@ body {
     font-weight: 700;
     line-height: 2.6rem;
     margin-bottom: 14px;
+    margin-top: 20px;
 }
 
 .cancer-treatment-methods__wrap__item__info__restrictions {
